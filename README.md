@@ -1,7 +1,7 @@
 # Time-series-data-visualization-to-recognise-past-performance-and-forecast-game-outcome-
 Application of time series data visualization to recognise past performance and forecast game outcome at the English Premier League
 
-**Background**
+**Basis**
 In recent years, there has been a growing amount of study focused on assessing the technical and tactical performance of teams in association football using data from match events. Nevertheless, the majority of research employed a unidimensional methodology and examined the impact of individual performance factors on match outcomes separately, hence restricting the comprehensibility of the findings. The objective of the study was to utilise an advanced algorithm to rank team performance and analyse key performance indicators in relation to match outcomes using a large dataset of matches. 
 
 Traditionally, 20 teams compete in the English Premier League (EPL), and each club play each of the other 19 teams twice per season, making a total of 38 games for each team and 760 games per season. In an attempt to forecast the outcome of a match involving the home and away teams, each of the models is given consideration, leveraging on the mid-point of the three-class model, which means picking draw in the (win, draw, loss) range. In order to determine the accuracy of the predicted values, several rounding procedures were applied to them. After comparing the results, it was determined that splitting the training and test data by 70% and 30% respectively
